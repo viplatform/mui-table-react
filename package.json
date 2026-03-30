@@ -1,6 +1,6 @@
 {
   "name": "mui-table-react",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A reusable table component for React applications built with Material-UI (MUI) and TanStack Table.",
   "author": "Bikash Das <bikashdas0108@gmail.com> (https://github.com/bikashdas0108)",
   "license": "MIT",
@@ -85,7 +85,9 @@
     "immutable": "5.1.5",
     "svgo": "2.8.2",
     "@eslint/plugin-kit": "0.6.1",
-    "rollup": ">=4.59.0"
+    "rollup": ">=4.59.0",
+    "handlebars": ">=4.7.9",
+    "brace-expansion": ">=5.0.5"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.8",
