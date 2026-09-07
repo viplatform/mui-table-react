@@ -45,7 +45,8 @@
     "release": "standard-version",
     "coverage": "vitest run --coverage",
     "prepare": "husky",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "test:security-deps": "node scripts/verify-security-dependencies.mjs"
   },
   "standard-version": {
     "scripts": {
@@ -80,7 +81,8 @@
     "ws": "8.21.0",
     "tailwindcss/**/yaml": "2.8.3",
     "rollup-plugin-postcss/**/yaml": "1.10.3",
-    "@emotion/**/yaml": "1.10.3"
+    "@emotion/**/yaml": "1.10.3",
+    "browserslist": "4.28.7"
   },
   "peerDependencies": {
     "@mui/material": "^5.0.0",
@@ -146,5 +148,8 @@
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-dts": "^4.5.3",
     "vitest": "^3.2.6"
+  },
+  "overrides": {
+    "browserslist": "4.28.7"
   }
 }
