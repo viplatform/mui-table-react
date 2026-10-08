@@ -57,7 +57,7 @@
     }
   },
   "resolutions": {
-    "js-yaml": "^4.3.0",
+    "js-yaml": "4.3.2",
     "glob": ">=10.5.0",
     "lodash": ">=4.18.1",
     "minimatch": ">=10.2.4",
@@ -65,7 +65,7 @@
     "diff": "4.0.4",
     "flatted": "3.4.2",
     "immutable": "5.1.9",
-    "svgo": "2.8.3",
+    "svgo": "2.8.4",
     "@eslint/plugin-kit": "0.6.1",
     "rollup": ">=4.59.0",
     "handlebars": ">=4.7.9",
@@ -150,6 +150,13 @@
     "vitest": "^3.2.6"
   },
   "overrides": {
-    "browserslist": "4.28.7"
+    "browserslist": "4.28.7",
+    "js-yaml": "4.3.2",
+    "svgo": "2.8.4",
+    "lodash": "$lodash",
+    "minimatch@<4.0.0": "3.1.5",
+    "minimatch@>=4.0.0 <6.0.0": "5.1.9",
+    "minimatch@>=6.0.0 <10.0.0": "9.0.9",
+    "minimatch@>=10.0.0": "10.2.5"
   }
 }
